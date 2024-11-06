@@ -23,7 +23,7 @@ runs:
       shell: bash
       env:
         GITHUB_ACTION_PATH: ${{github.action_path}}
-     - name: Run bye.sh
+    - name: Run bye.sh
       run: sh bye.sh
       shell: bash
   
